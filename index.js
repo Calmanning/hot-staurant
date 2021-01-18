@@ -39,7 +39,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/reserve', (req,res) => {
-    res.sendFile(path.join(__dirname,"reserve"));
+    res.sendFile(path.join(__dirname,"reserve.html"));
 })
 //END HTML Routes
 
